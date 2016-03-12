@@ -1,0 +1,46 @@
+.play{
+    -fx-background-image:url('btn.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-font: bold italic 18pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.play:hover{
+    -fx-background-image:url('btnH.png');
+}
+.play:pressed{
+    -fx-background-image:url('btnP.png');
+}
+.erreur{
+    -fx-font: bold italic 13pt "Arial";
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+    -fx-text-fill: red;
+}
+.labelStat{
+    -fx-font: bold italic 16pt "Script MT Bold";
+    -fx-text-fill: #5E664D;
+    -fx-text-align: center;
+}
+.labelStat2{
+    -fx-font: bold italic 20pt "Script MT Bold";
+    -fx-text-fill: #5E664D;
+    -fx-text-align: center;
+}
+.level{
+    -fx-font: bold italic 18pt "Script MT Bold";
+    -fx-effect: dropshadow( one-pass-box , white , 8 , 0.0 , 2 , 0 );
+    -fx-background-color: #DF7806;
+    -fx-background-radius: 50%;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.close{
+    -fx-font: bold italic 18pt "Arial";
+    -fx-background-color: #CC1553;
+    -fx-background-radius: 50%;
+    -fx-text-fill: #EAD6D7;
+    -fx-cursor: hand;
+}
